@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=200&section=header&text=Matt%20Petosa&fontColor=ffffff&fontSize=58&fontAlignY=36&desc=Engineer%20//%20Gear%20Head&descAlignY=56&descSize=18" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=200&section=header&text=Matt%20Petosa&fontColor=ffffff&fontSize=58&fontAlignY=36&desc=Engineer%20///%20Motorhead&descAlignY=56&descSize=18" width="100%" />
 
 <div align="center">
 
@@ -12,9 +12,9 @@
 
 ## 💫 About Me
 
-I'm an engineer working in **lab software automation** — building tooling around chromatography data systems so the boring, error-prone parts of instrument software stop eating people's days.
+I'm an engineer working in **lab software automation** — building tooling around chromatography data systems.
 
-Outside of work I run a small fleet of self-hosted services on my own Debian box behind nginx and Cloudflare. Most of them started as "this should take an afternoon" and turned into something with a database, an admin panel, and opinions.
+Outside of work I run a small fleet of self-hosted services on my own Debian box behind nginx and Cloudflare.
 
 - 🔭 Currently building — cost-of-ownership tooling for cars, a live space-mission dashboard, and deployment tooling for lab instruments
 - 🧰 Comfort zone — Python, Flask, SQLite, nginx, Docker, and a terminal
