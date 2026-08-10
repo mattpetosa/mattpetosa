@@ -23,10 +23,7 @@ Outside of work I run a small fleet of self-hosted services on my own Debian box
 
 ## 🌐 Socials
 
-<!-- Add your LinkedIn: replace HANDLE below and uncomment.
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/HANDLE)
--->
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matthew-petosa-21b86265/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mattpetosa)
 
 ## 💻 Tech Stack
