@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Automation+engineer+by+day;Self-hoster+by+night;Python+%2B+Flask+%2B+nginx+%2B+Docker;Probably+rebuilding+something+that+worked+fine&font=Fira%20Code&size=22&duration=3400&pause=900&color=58A6FF&center=true&vCenter=true&width=560&height=45)](https://github.com/mattpetosa)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Automation+Engineer;DevOps+Engineer;Network+Engineer;Systems+Engineer;Cloud+Engineer&font=Fira%20Code&size=22&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&width=460&height=45)](https://github.com/mattpetosa)
 
 ![Profile views](https://komarev.com/ghpvc/?username=mattpetosa&label=Profile%20views&color=1f6feb&style=flat-square)
 
