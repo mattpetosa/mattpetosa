@@ -18,8 +18,8 @@ Outside of work I run a small fleet of self-hosted services on my own Debian box
 
 - 🔭 Currently building — cost-of-ownership tooling for cars, a live space-mission dashboard, and deployment tooling for lab instruments
 - 🧰 Comfort zone — Python, Flask, SQLite, nginx, Docker, and a terminal
-- 🏎️ Off-keyboard — cars, wrenching, and arguing about depreciation curves
-- ⚡ Fun fact — almost everything I run is stitched together on one server that has never once been rebooted gracefully
+- 🏎️ Off-keyboard — cars, motorcycles, and anything with an engine
+- ⚡ Fun fact — home lab uptime at 99.99%!
 
 ## 🌐 Socials
 
