@@ -12,7 +12,7 @@
 
 ## 💫 About Me
 
-I'm an engineer working in **lab software automation** — building tooling around chromatography data systems.
+I'm an engineer working at Waters in deploying and automating **lab software** — building tooling around chromatography data systems. I also own MHP Technology LLC for side projects.
 
 Outside of work I run a small fleet of self-hosted services on my own Debian box behind nginx and Cloudflare.
 
