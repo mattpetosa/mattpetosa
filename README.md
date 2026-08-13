@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=200&section=header&text=Matt%20Petosa&fontColor=ffffff&fontSize=58&fontAlignY=36&desc=Engineer%20///%20Motorhead&descAlignY=56&descSize=18" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=200&section=header&text=Matt%20Petosa&fontColor=ffffff&fontSize=58&fontAlignY=36&desc=Engineer%20///%20Gearhead&descAlignY=56&descSize=18" width="100%" />
 
 <div align="center">
 
