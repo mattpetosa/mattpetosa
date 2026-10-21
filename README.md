@@ -15,10 +15,40 @@ I'm an engineer working at Waters deploying and automating **lab software** — 
 
 Outside of work I run a small fleet of self-hosted services on my own Debian box behind nginx and Cloudflare.
 
-- 🔭 Currently building — cost-of-ownership tooling for cars, a live space-mission dashboard, and deployment tooling for lab instruments
+- 🔭 Currently building — Empower Smart Tools, and the VIP & Suites storefront
 - 🧰 Comfort zone — Python, Flask, SQLite, nginx, Docker, and a terminal
 - 🏎️ Off-keyboard — cars, motorcycles, and anything with an engine
 - ⚡ Fun fact — home lab uptime at 99.99%!
+
+## 🧪 Main Project — Empower Smart Tools
+
+A suite of tools for **Waters Empower 3** that turns long manual checklists into repeatable, verified jobs. → [empower.mhpwebserver.com](https://empower.mhpwebserver.com)
+
+| Tool | What it does |
+| :--- | :--- |
+| **Smart Deploy** | Automated Empower 3 installs: runs the prep scripts and pre-flight checks, then drives the installer for a consistent, audit-ready setup in minutes. |
+| **Smart Recovery** | Rebuilds a corrupted Empower database and tests disaster-recovery scripts, so you know the DR plan restores cleanly before you need it. |
+| **Smart Project Mover** | Backs up, restores and moves Empower projects, verifying every hop with checksums and before/after contents. |
+| **Smart License Audit** | Checks a customer's licenses and users across all their instances and produces a plain-language report. |
+| **[Smart License Cleaner](https://github.com/mattpetosa/empower-smart-license-cleaner)** | Turns a Licensing Wizard PDF or Checksum report into a clean Excel sheet, in the browser. |
+| **[Smart IQ Filler](https://github.com/mattpetosa/empower-smart-iq-filler)** | Fills in the Servers IQ PDF from the server's own system files and shows where every value came from. |
+| **[License Extension](https://github.com/mattpetosa/empower-smart-license-extension)** | Chrome extension that turns an order's license assets into a License Cleaner CSV in one click. |
+
+## 🏟️ VIP & Suites
+
+A premium storefront for **luxury suites, clubs and VIP seats** — book it yourself, one flat all-in price, with white-glove concierge service. Currently being rebuilt from the ground up.
+
+## 🛠️ Side Projects
+
+| Project | What it is |
+| :--- | :--- |
+| **[BlueChipGarage](https://bluechipgarage.com)** | Live auction and classified listings for sports cars and exotics, with market value from real completed sales and a full cost-of-ownership projection. |
+| **[The Public Homepage](https://thepublichomepage.com)** | Pay to upload your own photo to the page — the public controls what's on it. Moderation pipeline plus Docker isolation for anything untrusted. |
+| **[Mission Control](https://mission.mhpwebserver.com)** | Space launch and active-mission dashboard with a baked SVG world map, live day/night terminator and rate-limit-aware caching. [Source](https://github.com/mattpetosa/mission-dashboard) |
+| **[Event Weather Tracker](https://github.com/mattpetosa/event-weather-tracker)** | Self-hostable weather comparison for an event's exact hours, across NWS, MET Norway and the major forecast models, with a verdict. |
+| **Game Development** | Browser games built in three.js and canvas, with real-time online multiplayer: rollback and server-authoritative netcode, party lobbies and campaigns. |
+| **[White Label Gym Platform](https://palker.mhpwebserver.com)** | A gym website any training gym can run under its own brand: class booking and checkout, a member portal, a trainer back office and a late-cancellation fee ladder. Running for Palker Sports Performance. |
+| **Queue Watchdog** | Watchdog for a self-hosted media pipeline: explainable scoring, two-tier removal and five safety gates so it never removes something healthy. |
 
 ## 🌐 Socials
 
@@ -43,19 +73,6 @@ Outside of work I run a small fleet of self-hosted services on my own Debian box
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-
-## 🛠️ What I'm Building
-
-> Most of these live in private repos on my own infrastructure — here's what they actually do.
-
-| Project | What it is |
-| :--- | :--- |
-| **Drive It For Free** | Enthusiast car aggregator with a real cost-of-ownership engine — depreciation, fees, and running costs modelled per listing. Refuses to guess a number rather than show a believable wrong one. |
-| **Mission Control** | Space launch and active-mission dashboard. Baked SVG world map with a live day/night terminator, marker clustering, and caching shaped around upstream rate limits. |
-| **Queue Watchdog** | Watchdog for a self-hosted media pipeline. Explainable scoring model, two-tier removal, and five safety gates so it never nukes something healthy. |
-| **Shared Canvas** | Pay-to-edit collaborative canvas where an AI performs the edits. Moderation pipeline plus Docker isolation for anything untrusted. |
-| **Smart Tools Suite** | Deployment and recovery tooling for lab instrument software — per-product versioning, release publishing, and an admin console. |
-| **Gym Platform** | Full rebuild of a friend's gym site: booking and checkout, member portal, trainer back office, and a late-cancellation fee ladder. |
 
 ## 📊 GitHub Stats
 
