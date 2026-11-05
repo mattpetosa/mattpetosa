@@ -55,13 +55,13 @@ Bugs and feature requests for the whole suite: [smart-tools-feedback](https://gi
 
 | Project | What it is |
 | :--- | :--- |
-| **🤖 VIP & Suites** | Storefront for **luxury suites, clubs and VIP seats** with one flat all-in price and interactive venue maps. Includes an AI chat assistant built on Claude that searches live events and hands off to a human concierge. Being rebuilt from the ground up. |
-| **🤖 [The Public Homepage](https://thepublichomepage.com)** | Pay to put your own photo on the page, so the public decides what's on it. Every upload passes AI vision moderation, and anything untrusted runs in Docker isolation. |
+| **[VIP & Suites](https://vipandsuites.com)** | Storefront for **luxury suites, clubs and VIP seats** with one flat all-in price and interactive venue maps. Includes an AI chat assistant built on Claude that searches live events and hands off to a human concierge. Coming soon. |
+| **[The Public Homepage](https://thepublichomepage.com)** | Pay to put your own photo on the page, so the public decides what's on it. Every upload passes AI vision moderation, and anything untrusted runs in Docker isolation. |
 | **[BlueChipGarage](https://bluechipgarage.com)** | Live auction and classified listings for sports cars and exotics, with market value from real completed sales and a full cost-of-ownership projection. |
 | **[Mission Control](https://mission.mhpwebserver.com)** | Space launch and active-mission dashboard with a baked SVG world map, live day/night terminator and rate-limit-aware caching. [Source](https://github.com/mattpetosa/mission-dashboard) |
 | **[Event Weather Tracker](https://github.com/mattpetosa/event-weather-tracker)** | Self-hostable weather comparison for an event's exact hours across NWS, MET Norway and the major forecast models, with a verdict. |
 | **[White Label Gym Platform](https://palker.mhpwebserver.com)** | A gym site any training gym can run under its own brand: class booking and checkout, member portal, trainer back office and a late-cancellation fee ladder. |
-| **Browser Games** | three.js and TypeScript games with real-time online multiplayer: party lobbies, up to 16 players, server-authoritative netcode. |
+| **[Browser Games](https://critters.mhpwebserver.com)** | three.js and TypeScript games with real-time online multiplayer: party lobbies, up to 16 players, server-authoritative netcode. Play [Critters](https://critters.mhpwebserver.com), a 16-player monster-tag game in a dark town. |
 
 ## 💻 Tech Stack
 
