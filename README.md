@@ -1,78 +1,105 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=200&section=header&text=Matt%20Petosa&fontColor=ffffff&fontSize=58&fontAlignY=36&desc=Engineer%20///%20Gearhead&descAlignY=56&descSize=18" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=200&section=header&text=Matt%20Petosa&fontColor=ffffff&fontSize=58&fontAlignY=36&desc=AI%20Apps%20%E2%80%A2%20Software%20%E2%80%A2%20Websites&descAlignY=56&descSize=18" width="100%" />
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Automation+Engineer;DevOps+Engineer;Network+Engineer;Systems+Engineer;Cloud+Engineer&font=Fira%20Code&size=22&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&width=460&height=45)](https://github.com/mattpetosa)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=AI+App+Developer;Software+Developer;Website+Developer;Automation+Engineer&font=Fira%20Code&size=22&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&width=460&height=45)](https://github.com/mattpetosa)
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square)](https://www.linkedin.com/in/matthew-petosa-21b86265/)
+[![MHP Technology](https://img.shields.io/badge/MHP%20Technology-1f6feb?style=flat-square&logo=googlechrome&logoColor=white)](https://mhptechnology.com)
 ![Profile views](https://komarev.com/ghpvc/?username=mattpetosa&label=Profile%20views&color=1f6feb&style=flat-square)
 
 </div>
 
 ---
+
 ## 💫 About Me
 
-I'm an engineer working at Waters deploying and automating **lab software** — building tooling around chromatography data systems. I also own MHP Technology LLC for my side business and projects.
+I'm an **AI app, software and website developer**. I design and ship production software end to end: Windows desktop apps, web apps, and the servers they run on. AI runs through all of it, both as features inside the products (chat assistants that use tools, vision-based moderation) and as agents in my own workflow for planning, building, testing and reviewing code.
 
-Outside of work I run a small fleet of self-hosted services on my own Debian box behind nginx and Cloudflare.
+By day I deploy and automate **Waters Empower 3** lab software, which is where Empower Smart Tools came from. I also run **MHP Technology LLC** for client work and side projects, hosted on my own Debian servers behind nginx and Cloudflare.
 
-- 🔭 Currently building — Empower Smart Tools, and the VIP & Suites storefront
-- 🧰 Comfort zone — Python, Flask, SQLite, nginx, Docker, and a terminal
-- 🏎️ Off-keyboard — cars, motorcycles, and anything with an engine
-- ⚡ Fun fact — home lab uptime at 99.99%!
+- 🔭 **Currently building:** Empower Smart Tools and the VIP & Suites storefront
+- 🤖 **AI:** apps on the Claude API (tool use, vision, evals) and agent-driven development with Claude Code
+- 🧰 **Comfort zone:** Python, C# / .NET, JavaScript / TypeScript, Flask, nginx, Docker, and a terminal
+- 🏎️ **Off-keyboard:** cars, motorcycles, and anything with an engine
 
-## 🧪 Main Project — Empower Smart Tools
+## 🧪 Empower Smart Tools
 
-A suite of tools for **Waters Empower 3** that turns long manual checklists into repeatable, verified jobs. → [empower.mhpwebserver.com](https://empower.mhpwebserver.com)
+A suite of tools for **Waters Empower 3** that turns long manual checklists into repeatable, verified jobs. Nine tools, one site: [empower.mhpwebserver.com](https://empower.mhpwebserver.com)
 
-| Tool | What it does |
-| :--- | :--- |
-| **Smart Deploy** | Automated Empower 3 installs: runs the prep scripts and pre-flight checks, then drives the installer for a consistent, audit-ready setup in minutes. |
-| **Smart Recovery** | Rebuilds a corrupted Empower database and tests disaster-recovery scripts, so you know the DR plan restores cleanly before you need it. |
-| **Smart Project Mover** | Backs up, restores and moves Empower projects, verifying every hop with checksums and before/after contents. |
-| **Smart License Audit** | Checks a customer's licenses and users across all their instances and produces a plain-language report. |
-| **[Smart License Cleaner](https://github.com/mattpetosa/empower-smart-license-cleaner)** | Turns a Licensing Wizard PDF or Checksum report into a clean Excel sheet, in the browser. |
-| **[Smart IQ Filler](https://github.com/mattpetosa/empower-smart-iq-filler)** | Fills in the Servers IQ PDF from the server's own system files and shows where every value came from. |
-| **[License Extension](https://github.com/mattpetosa/empower-smart-license-extension)** | Chrome extension that turns an order's license assets into a License Cleaner CSV in one click. |
+The Windows apps share one core: signed self-updates, license keys, and release builds that are obfuscated and smoke-tested before they reach a download channel.
 
-## 🏟️ VIP & Suites
+### 🖥️ Windows apps
 
-A premium storefront for **luxury suites, clubs and VIP seats** — book it yourself, one flat all-in price, with white-glove concierge service. Currently being rebuilt from the ground up.
+| Tool | What it does | Status |
+| :--- | :--- | :--- |
+| **[Smart Deploy](https://github.com/mattpetosa/empower-smart-deploy-releases)** | Automated Empower 3 installs. Runs the prep scripts and pre-flight checks, then drives the installer for a consistent, audit-ready setup in minutes. Includes an offline ISO builder. | ✅ Released |
+| **[Smart Recovery](https://github.com/mattpetosa/empower-smart-recovery-releases)** | Rebuilds a corrupted Empower database and tests disaster-recovery scripts, so you know the DR plan restores cleanly before you need it. | ✅ Released |
+| **[Smart License Audit](https://github.com/mattpetosa/empower-smart-license-audit-releases)** | Checks a customer's licenses and users across all their instances. The app collects read-only and uploads sealed; the [audit site](https://audit.mhpwebserver.com) produces a plain-language report. | ✅ Released |
+| **[Smart Project Migration](https://github.com/mattpetosa/empower-smart-project-migration-releases)** | Backs up, restores and moves Empower projects between databases, verifying every hop with checksums, raw-data compares and before/after contents. | ✅ Released |
+| **[Smart Project Backup](https://github.com/mattpetosa/empower-smart-project-backup-releases)** | Scheduled, verified per-project backups, so one project can be put back without rolling the whole database back. Email alerts through your own SMTP server. | 🧪 Pre-release |
+| **Smart Object Export** | Moves users, groups, permissions, policies and other system objects from an old database to a new one through an encrypted export file. | 🚧 In development |
+
+### 🌐 Web tools
+
+| Tool | What it does | Status |
+| :--- | :--- | :--- |
+| **[Smart License Cleaner](https://github.com/mattpetosa/empower-smart-license-cleaner)** | Turns a Licensing Wizard PDF or Checksum report into a clean Excel sheet and portal CSV, in the browser. Offline single-file version too. | ✅ Released |
+| **[Smart IQ Filler](https://github.com/mattpetosa/empower-smart-iq-filler)** | Fills in the Servers IQ PDF from the server's own system files and shows where every value came from. | ✅ Released |
+| **[Smart License Extension](https://github.com/mattpetosa/empower-smart-license-extension)** | Chrome extension that turns an order's license assets into a License Cleaner CSV or XLSX in one click. | ✅ Released |
+
+Bugs and feature requests for the whole suite: [smart-tools-feedback](https://github.com/mattpetosa/smart-tools-feedback)
 
 ## 🛠️ Side Projects
 
 | Project | What it is |
 | :--- | :--- |
+| **🤖 VIP & Suites** | Storefront for **luxury suites, clubs and VIP seats** with one flat all-in price and interactive venue maps. Includes an AI chat assistant built on Claude that searches live events and hands off to a human concierge. Being rebuilt from the ground up. |
+| **🤖 [The Public Homepage](https://thepublichomepage.com)** | Pay to put your own photo on the page, so the public decides what's on it. Every upload passes AI vision moderation, and anything untrusted runs in Docker isolation. |
 | **[BlueChipGarage](https://bluechipgarage.com)** | Live auction and classified listings for sports cars and exotics, with market value from real completed sales and a full cost-of-ownership projection. |
-| **[The Public Homepage](https://thepublichomepage.com)** | Pay to upload your own photo to the page — the public controls what's on it. Moderation pipeline plus Docker isolation for anything untrusted. |
 | **[Mission Control](https://mission.mhpwebserver.com)** | Space launch and active-mission dashboard with a baked SVG world map, live day/night terminator and rate-limit-aware caching. [Source](https://github.com/mattpetosa/mission-dashboard) |
-| **[Event Weather Tracker](https://github.com/mattpetosa/event-weather-tracker)** | Self-hostable weather comparison for an event's exact hours, across NWS, MET Norway and the major forecast models, with a verdict. |
-| **Game Development** | Browser games built in three.js and canvas, with real-time online multiplayer: rollback and server-authoritative netcode, party lobbies and campaigns. |
-| **[White Label Gym Platform](https://palker.mhpwebserver.com)** | A gym website any training gym can run under its own brand: class booking and checkout, a member portal, a trainer back office and a late-cancellation fee ladder. Running for Palker Sports Performance. |
-| **Queue Watchdog** | Watchdog for a self-hosted media pipeline: explainable scoring, two-tier removal and five safety gates so it never removes something healthy. |
-
-## 🌐 Socials
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matthew-petosa-21b86265/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mattpetosa)
+| **[Event Weather Tracker](https://github.com/mattpetosa/event-weather-tracker)** | Self-hostable weather comparison for an event's exact hours across NWS, MET Norway and the major forecast models, with a verdict. |
+| **[White Label Gym Platform](https://palker.mhpwebserver.com)** | A gym site any training gym can run under its own brand: class booking and checkout, member portal, trainer back office and a late-cancellation fee ladder. |
+| **Browser Games** | three.js and TypeScript games with real-time online multiplayer: party lobbies, up to 16 players, server-authoritative netcode. |
 
 ## 💻 Tech Stack
 
+**Languages**<br>
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge)
 ![Bash](https://img.shields.io/badge/bash-%234EAA25.svg?style=for-the-badge&logo=gnubash&logoColor=white)
 
+**AI**<br>
+![Claude](https://img.shields.io/badge/Claude%20API-D97757?style=for-the-badge&logo=claude&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-191919?style=for-the-badge&logo=anthropic&logoColor=white)
+
+**Web & Backend**<br>
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 ![Gunicorn](https://img.shields.io/badge/gunicorn-%23298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white)
-![NGINX](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![Three.js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white)
+![esbuild](https://img.shields.io/badge/esbuild-%23FFCF00.svg?style=for-the-badge&logo=esbuild&logoColor=black)
+![Stripe](https://img.shields.io/badge/Stripe-5469d4?style=for-the-badge&logo=stripe&logoColor=white)
+![Chrome Extensions](https://img.shields.io/badge/Chrome%20Extensions-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
 
+**Desktop & Data**<br>
+![.NET](https://img.shields.io/badge/.NET%208%20%2F%20WPF-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge)
+
+**Infrastructure & Testing**<br>
+![NGINX](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Pytest](https://img.shields.io/badge/pytest-%23ffffff.svg?style=for-the-badge&logo=pytest&logoColor=2f9fe3)
 
 ## 📊 GitHub Stats
 
@@ -80,21 +107,11 @@ A premium storefront for **luxury suites, clubs and VIP seats** — book it your
 
 ![Streak](https://streak-stats.demolab.com/?user=mattpetosa&theme=github-dark-blue&hide_border=true&border_radius=8)
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=mattpetosa&theme=github-compact&hide_border=true&radius=8&area=true)
-
 <!--
-github-readme-stats.vercel.app (stats + top-langs cards) and github-profile-trophy
-were down / payment-disabled when this README was written. Re-add here if they return:
+github-readme-stats.vercel.app (stats + top-langs cards), github-profile-trophy and
+github-readme-activity-graph.vercel.app were down / payment-disabled (402) as of 2026-11-04. Re-add here if they return:
 ![](https://github-readme-stats.vercel.app/api?username=mattpetosa&theme=dark&include_all_commits=true&count_private=true)
 -->
-
-</div>
-
-## ✍️ Random Dev Quote
-
-<div align="center">
-
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 </div>
 
