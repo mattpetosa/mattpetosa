@@ -1,8 +1,8 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=200&section=header&text=Matt%20Petosa&fontColor=ffffff&fontSize=58&fontAlignY=36&desc=AI%20Apps%20%E2%80%A2%20Software%20%E2%80%A2%20Websites&descAlignY=56&descSize=18" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=200&section=header&text=Matt%20Petosa&fontColor=ffffff&fontSize=58&fontAlignY=36&desc=AI%20Apps%20%E2%80%A2%20Software%20%E2%80%A2%20Websites%20%E2%80%A2%20Automation%20%E2%80%A2%20DevOps&descAlignY=56&descSize=18" width="100%" />
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=AI+App+Developer;Software+Developer;Website+Developer;Automation+Engineer&font=Fira%20Code&size=22&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&width=460&height=45)](https://github.com/mattpetosa)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=AI+App+Developer;Software+Developer;Website+Developer;Automation+Engineer;DevOps+Engineer;Systems+Engineer;Cloud+Engineer;Network+Engineer&font=Fira%20Code&size=22&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&width=460&height=45)](https://github.com/mattpetosa)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square)](https://www.linkedin.com/in/matthew-petosa-21b86265/)
 [![MHP Technology](https://img.shields.io/badge/MHP%20Technology-1f6feb?style=flat-square&logo=googlechrome&logoColor=white)](https://mhptechnology.com)
@@ -14,11 +14,12 @@
 
 ## 💫 About Me
 
-I'm an **AI app, software and website developer**. I design and ship production software end to end: Windows desktop apps, web apps, and the servers they run on. AI runs through all of it, both as features inside the products (chat assistants that use tools, vision-based moderation) and as agents in my own workflow for planning, building, testing and reviewing code.
+I'm an **AI app, software and website developer** and an **automation and DevOps engineer**. I design and ship production software end to end: Windows desktop apps, web apps, and the servers, pipelines and infrastructure they run on. AI runs through all of it, both as features inside the products (chat assistants that use tools, vision-based moderation) and as agents in my own workflow for planning, building, testing and reviewing code.
 
-By day I deploy and automate **Waters Empower 3** lab software, which is where Empower Smart Tools came from. I also run **MHP Technology LLC** for client work and side projects, hosted on my own Debian servers behind nginx and Cloudflare.
+By day I deploy and automate **Waters Empower 3** lab software, which is where Empower Smart Tools came from. I also run **MHP Technology LLC** for client work and side projects, hosted on servers I build and run myself: Debian, nginx, Docker and Cloudflare, with automated deploys.
 
 - 🔭 **Currently building:** Empower Smart Tools and the VIP & Suites storefront
+- ⚙️ **Automation & DevOps:** release pipelines, self-updating apps, scripted installs, CI, backups and monitoring across a fleet of self-hosted services
 - 🤖 **AI:** apps on the Claude API (tool use, vision, evals) and agent-driven development with Claude Code
 - 🧰 **Comfort zone:** Python, C# / .NET, JavaScript / TypeScript, Flask, nginx, Docker, and a terminal
 - 🏎️ **Off-keyboard:** cars, motorcycles, and anything with an engine
